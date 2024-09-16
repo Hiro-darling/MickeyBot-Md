@@ -56,6 +56,17 @@
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VajfXO7CnA7zhERSe63s)
 </details>
 
+### **`Hosting Py 🤖`**
+<a href="https://dahs.hostingpy.shop"><img src="https://qu.ax/Scnk.jpg" height="125px"></a>
+
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
+
+- **Dashboard:** [`Aquí`](https://dahs.hostingpy.shop)
+- **Panel:** [`Aquí`](https://panel.hostingpy.shop/)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029Vak4e1R4NVifmh8Tvi3q)
+</details>
+
 #### 🟢 ACTIVAR EN CODES SPACES 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YaemoriBot-MD&ref=main&geo=UsEast)
 
