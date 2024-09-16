@@ -35,7 +35,7 @@
 [![Click Aquí](https://img.shields.io/badge/Grupo-Genesis-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/G35x1XV7DSrDmR9b7G4wJ4)
 
 ### **`AZURA ULTRA HOSTING 👾`**
-<a href="https://store.azuraultra-host.pro/login"><img src="https://qu.ax/ewVT.jpg" height="125px"></a>
+<a href="https://store.azuraultra-host.pro/login"><img src="https://qu.ax/lgUn.jpg" height="125px"></a>
 
 <details>
  <summary><b>:paperclip: Enlaces Importantes</b></summary>
@@ -43,6 +43,17 @@
 - **Dashboard:** [`Aquí`](https://control.azuraultra-host.pro/)
 - **Panel:** [`Aquí`](https://control.azuraultra-host.pro/)
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VaWABAMG8l5K8K9PAB3v)
+</details>
+
+### **`AKIRA HOST 👑`**
+<a href="https://dash.akira-host.store"><img src="https://qu.ax/kzPZ.jpg" height="125px"></a>
+
+<details>
+ <summary><b>:paperclip: Enlaces Importantes</b></summary>
+
+- **Dashboard:** [`Aquí`](https://dash.akira-host.store/)
+- **Panel:** [`Aquí`](https://panel.akira-host.store/)
+- **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VajfXO7CnA7zhERSe63s)
 </details>
 
 #### 🟢 ACTIVAR EN CODES SPACES 
