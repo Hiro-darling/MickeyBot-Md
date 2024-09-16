@@ -43,6 +43,7 @@
 - **Dashboard:** [`Aquí`](https://control.azuraultra-host.pro/)
 - **Panel:** [`Aquí`](https://control.azuraultra-host.pro/)
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VaWABAMG8l5K8K9PAB3v)
+</details>
 
 #### 🟢 ACTIVAR EN CODES SPACES 
 [`CREAR SERVIDOR`](https://github.com/codespaces/new?skip_quickstart=true&machine=basicLinux32gb&repo=OfcDiego/YaemoriBot-MD&ref=main&geo=UsEast)
