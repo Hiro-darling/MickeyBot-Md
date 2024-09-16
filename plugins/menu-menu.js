@@ -69,7 +69,7 @@ const defaultMenu = {
   footer: '╰• •───• •───• •───•\n',
   after: `> BY MICKEY BOT - MD X MICKEY`,
 }
-let ppp = 'https://qu.ax/vJHQ.mp4'
+let ppp = 'https://qu.ax/EPuS.jpg'
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
   try {
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}

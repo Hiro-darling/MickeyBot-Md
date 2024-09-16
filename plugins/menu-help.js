@@ -135,7 +135,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
         ],
     });
 
-    let vid = "https://qu.ax/vJHQ.mp4";
+    let vid = "https://qu.ax/EPuS.jpg";
     let img = "https://qu.ax/EPuS.jpg";
     let img2 = "https://qu.ax/EPuS.jpg";
     let img3 = "https://qu.ax/EPuS.jpg";
