@@ -90,7 +90,7 @@ if (global.db.data == null) loadDatabase();
 if (connection == 'open') {
 conn.isInit = true;
 global.conns.push(conn);
-await parent.reply(m.chat, args[0] ? '💫 Conectado con éxito al WhatsApp.' : '✅ *Conectado con éxito!*\n\nSi se desconecta se reconectara automáticamente, a menos que elimines la sesión\n\nEl número del bot puede cambiar, guarda este enlace: https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y', m, rcanal);
+await parent.reply(m.chat, args[0] ? '💫 Conectado con éxito al WhatsApp.' : '✅ *Conectado con éxito!*\n\nSi se desconecta se reconectara automáticamente, a menos que elimines la sesión\n\nEl número del bot puede cambiar, guarda este enlace: https://whatsapp.com/channel/0029VaiHa0GJkK7If3ctDH0g', m, rcanal);
 await sleep(5000);
 if (args[0]) return;
 await parentw.reply(conn.user.jid, `💫 *Para volver a vincular un sub Bot use su token`, m, rcanal)
