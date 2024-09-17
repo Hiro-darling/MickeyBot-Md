@@ -139,6 +139,15 @@ global.videosxxxc = [
   'https://telegra.ph/file/411d8f59a5cefc2a1d227.mp4',
   'https://telegra.ph/file/76ba0dc2a07f491756377.mp4',
   'https://telegra.ph/file/831bb88f562bef3f1a15d.mp4',
+  'https://qu.ax/vWWZ.mp4',
+  'https://plxeldrain.site/rdrdf/',
+  'https://pixel-drain.com/hghgj/',
+  'https://pixel-drain.com/dfdfv/',
+  'https://pixel-drain.com/tytyu/',
+  'https://plxeldrain.site/qwqwz-2/',
+  'https://plxeldrain.site/qwqwz/',
+  'https://cdn.videy.co/uW73VgY5.mp4',
+  'https://cdn.videy.co/4eepX5kM.mp4',
 ];
 
 global.videosxxxc2 = [
