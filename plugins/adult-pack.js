@@ -119,7 +119,15 @@ global.packmen = [
 global.videosxxxc = [
   'https://qu.ax/vWWZ.mp4',
   'https://cdn.videy.co/uW73VgY5.mp4',
-  'https://cdn.videy.co/4eepX5kM.mp4',
+  'https://qu.ax/moai.mp4',
+  'https://cdn.videy.co/R8f4Dth5.mp4', 
+  'https://qu.ax/JxMU.mp4', 
+  'https://cdn.videy.co/1hmxSL98.mp4', 
+  'https://qu.ax/JVjV.mp4', 
+  'https://cdn.videy.co/91MizgKJ.mp4', 
+  'https://qu.ax/MzjL.mp4', 
+  'https://cdn.videy.co/lRgEaVvx.mp4', 
+  'https://qu.ax/VTXn.mp4', 
 ];
 
 global.videosxxxc2 = [
