@@ -2,7 +2,7 @@ import fs from "fs"
 async function handler(m, {usedPrefix}) {
     const user = m.sender.split("@")[0]
     if (fs.existsSync("./MickeyBotJadi/" + user + "/creds.json")) {
-        let token = Buffer.from(fs.readFileSync("./MiniJadiBot/" + user + "/creds.json"), "utf-8").toString("base64")
+        let token = Buffer.from(fs.readFileSync("./MickeyBotJadi/" + user + "/creds.json"), "utf-8").toString("base64")
         await conn.reply(m.chat, `El token te permite iniciar sesion en otros bots, recomendamos no compartirlo con nadie.\n\n*Tu token es:*`, m, rcanal)
         await conn.reply(m.chat, token, m, rcanal)
     } else {

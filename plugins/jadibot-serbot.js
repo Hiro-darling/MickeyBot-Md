@@ -34,7 +34,7 @@ const { version } = await fetchLatestBaileysVersion()
 const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['Mickey Sub-Bot', 'Edge', '2.0.0'],
+browser: [' Sub-Bot', 'Edge', '2.0.0'],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -83,7 +83,7 @@ loadDatabase()
 if (connection == "open") {
 conn.isInit = true
 global.conns.push(conn)
-await parentw.reply(m.chat, args[0] ? '💫 Conectado con éxito al WhatsApp.' : '✅ *Conectado con éxito!*\n\nSi se desconecta se reconectara automáticamente, a menos que elimines la sesión\n\nEl número del bot puede cambiar, guarda este enlace: https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y', m, rcanal)
+await parentw.reply(m.chat, args[0] ? '💫 Conectado con éxito al WhatsApp.' : '✅ *Conectado con éxito!*\n\nSi se desconecta se reconectara automáticamente, a menos que elimines la sesión\n\nEl número del bot puede cambiar, guarda este enlace: MickeyBotJadihttps://whatsapp.com/channel/0029VaiHa0GJkK7If3ctDH0g', m, rcanal)
 await sleep(5000)
 if (args[0]) {
 return

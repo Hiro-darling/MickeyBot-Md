@@ -1,25 +1,30 @@
 import ws from 'ws'
-import fetch from 'node-fetch'
 
-async function handler(m, { conn: _envio, usedPrefix }) {
-const uniqueUsers = new Map()
+async function handler(m, { conn: stars, usedPrefix }) {
+  let uniqueUsers = new Map()
 
-global.conns.forEach((conn) => {
-if (conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED) {
-uniqueUsers.set(conn.user.jid.replace(/[^0-9]/g, ''), conn.user)}})
+  global.conns.forEach((conn) => {
+    if (conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED) {
+      uniqueUsers.set(conn.user.jid, conn)
+    }
+  })
 
-const message = Array.from(uniqueUsers.values()).map((user, index) => `┌  ✩  *${index + 1}* : @${user.jid.replace(/[^0-9]/g, '')}\n└  ✩  *Link* : wa.me/${user.jid.replace(/[^0-9]/g, '')}\n`
-  ).join('\n')
+  let users = [...uniqueUsers.values()]
 
-const replyMessage = message.length === 0 ? "" : message
-const totalUsers = uniqueUsers.size;
-const responseMessage = `${`*\`S E R B O T-S U B B O T S\`*\n\n${replyMessage.trim()}`.trim()}`
+  let img = await (await fetch(`https://qu.ax/EPuS.jpg`)).buffer()
+  let message = users.map((v, index) => `
+*[ \`${index + 1}\` -  ${v.user.name || 'Sin Nombre'} ]*\n* *🔗 \`» Link :\`* https://wa.me/${v.user.jid.replace(/[^0-9]/g , '')}\n`).join('\n\n')
 
-let img = await (await fetch(`https://qu.ax/EPuS.jpg`)).buffer()
+  let replyMessage = message.length === 0 ? '' : message
+  global.totalUsers = users.length
+  let responseMessage = `*[ _Total Subbots Activos :_ \`${totalUsers || '0'}\` ]*\n\n${replyMessage.trim()}`.trim()
 
-await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, false, { mentions: _envio.parseMention(responseMessage) })
+await stars.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, null, fake, false, { mentions: stars.parseMention(responseMessage) })
+
 }
-handler.command = ['listjadibot', 'bots']
+
 handler.help = ['bots']
 handler.tags = ['serbot']
+handler.command = ['listjadibot', 'bots']
+
 export default handler
