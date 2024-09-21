@@ -52,7 +52,7 @@
  <summary><b>:paperclip: Enlaces Importantes</b></summary>
 
 - **Dashboard:** [`Aquí`](https://dash.akira-host.store/)
-- **Panel:** [`Aquí`](https://panel.akira-host.store/)
+- **Panel:** [`Aquí`](https://cloud.akira-host.store/)
 - **Canal de WhatsApp:** [`Aquí`](https://whatsapp.com/channel/0029VajfXO7CnA7zhERSe63s)
 </details>
 
